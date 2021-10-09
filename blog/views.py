@@ -1,6 +1,6 @@
-from django.shortcuts import render
+from django.views.generic import ListView
 from blog.models import Post
 
-def blog_list(request):
-    posts = Post.objects.all()
-    return render(request, 'blog/index.html', {'posts': posts})
+class PostsListView(ListView):
+    model = Post
+    template_name = 'blog/post_list.html'

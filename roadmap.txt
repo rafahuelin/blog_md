@@ -1,10 +1,11 @@
-○ add blog model to unadmin
-○ split templates with partial, includes, ...
+● add blog model to unadmin
 ○ implement markdown from body post
 ○ add code highlighting
+○ split templates with partial, includes, ...
 ○ add static content to the posts
 ○ css format
 ○ change html lang="en" to es, and language settings to spanish
+○ SEO
 ○ add UML editor to work with uml or similar
 ○ dockerize
 ○ use postgres as database
