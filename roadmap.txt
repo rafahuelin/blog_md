@@ -4,9 +4,10 @@
 ○ add code highlighting
 ○ add static content to the posts
 ○ css format
-○ change html lang="en" to es, and settings language to spanish
+○ change html lang="en" to es, and language settings to spanish
 ○ add UML editor to work with uml or similar
 ○ dockerize
+○ use postgres as database
 ○ nextjs
 ○ multilanguage
 ○ add exercises (with codemirror or similar) and tests (JS)
