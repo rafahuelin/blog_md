@@ -1,0 +1,16 @@
+○ add blog model to unadmin
+○ split templates with partial, includes, ...
+○ implement markdown from body post
+○ add code highlighting
+○ add static content to the posts
+○ css format
+○ add UML editor to work with uml or similar
+○ dockerize
+○ nextjs
+○ multilanguage
+○ add exercises (with codemirror or similar) and tests (JS)
+○ add exercises (with codemirror or similar) and tests (Python)
+○ add Videos related to the exercises (JS)
+○ Full courses leveraging previous implemented tools
+
+○ ●
