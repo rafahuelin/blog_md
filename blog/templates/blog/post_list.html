@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'css/prism.min.css' %}" />
-    <link rel="stylesheet" href="{% static 'css/prismShowLanguage.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
     <title>Document</title>
     <!-- <style>
         * {
@@ -17,12 +17,14 @@
     </style> -->
 </head>
 <body class="line-numbers">
-    <h1>Prueba</h1>
-    {% for post in object_list %}
-    <h2>{{ post.title }}</h2>
-    <p>{{ post.body | markdown | safe }}</p>
-    {% endfor %}
+    <div class="container">
+        <h1>Prueba</h1>
+        {% for post in object_list %}
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.body | markdown | safe }}</p>
+        {% endfor %}
+    </div>
+    
      <script src="{% static 'js/prism.min.js' %}"></script>
-     <script src="{% static 'js/prismShowLanguage.js' %}"></script>
 </body>
 </html>
