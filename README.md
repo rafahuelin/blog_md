@@ -45,3 +45,7 @@ https://react.i18next.com/
 ### Styles 
 
 https://react.i18next.com/
+
+
+### Resources
+https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clike+javascript

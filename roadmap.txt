@@ -1,6 +1,6 @@
 ● add blog model to unadmin
-○ implement markdown from body post
-○ add code highlighting
+● implement markdown from body post
+● add code highlighting
 ○ split templates with partial, includes, ...
 ○ add static content to the posts
 ○ css format
