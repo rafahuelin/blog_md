@@ -1,8 +1,8 @@
 ● add blog model to unadmin
 ● implement markdown from body post
 ● add code highlighting
-○ split templates with partial, includes, ...
-○ add static content to the posts
+● split templates with partial, includes, ...
+○ add static content to the posts like images
 ○ css format
 ○ change html lang="en" to es, and language settings to spanish
 ○ SEO
