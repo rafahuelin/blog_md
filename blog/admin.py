@@ -1,6 +1,10 @@
 from django.contrib import admin
+from .models import Post, PostImage
 
-from .models import Post
+
+
+class PostImageInline(admin.TabularInline):
+    model = PostImage
 
 
 class PostAdmin(admin.ModelAdmin):
@@ -10,5 +14,8 @@ class PostAdmin(admin.ModelAdmin):
     readonly_fields = ('created', 'updated')
     list_per_page = 25
 
+    inlines = [
+        PostImageInline,
+    ]
 
 admin.site.register(Post, PostAdmin)
