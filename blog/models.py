@@ -1,4 +1,6 @@
+from django.conf import settings
 from django.db import models
+
 
 
 class Post(models.Model):
@@ -11,5 +13,8 @@ class Post(models.Model):
 
 class PostImage(models.Model):
     post = models.ForeignKey(Post, default=None, on_delete=models.CASCADE)
-    image = models.ImageField(upload_to="files/%Y/%m/%d")
+    image = models.ImageField(upload_to="posts")
+
+    def __str__(self) -> str:
+        return f'[<img class="image" style="width: 100%" src="{settings.MEDIA_URL}{self.image}">'
 
