@@ -18,3 +18,4 @@ class PostImage(models.Model):
     def __str__(self) -> str:
         return f'[<img class="image" style="width: 100%" src="{settings.MEDIA_URL}{self.image}">'
 
+    
