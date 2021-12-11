@@ -1,4 +1,5 @@
 Django==3.2.10
+djangorestframework==3.12.4
 ipython==7.28.0
 Markdown==3.3.4
 Pillow==8.4.0
