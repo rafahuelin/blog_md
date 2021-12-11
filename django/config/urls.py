@@ -3,7 +3,6 @@ from django.urls import include, path
 from django.conf import settings
 from django.conf.urls.static import static
 from django.urls.conf import re_path
-from blog.views import PostsListView
 from django.contrib.staticfiles import views
 
 urlpatterns = [

@@ -1,9 +1,10 @@
 from django.urls import path
-from blog.api import PostAPIView
-from blog.views import PostsListView
+from blog.api import PostListAPI, PostDetailAPI
+from blog.views import PostListView
 
 
 urlpatterns = [
-    path('api/V1/posts/', PostAPIView.as_view()),
-    path('', PostsListView.as_view(), name='posts_list'),
+    path('api/V1/posts/', PostListAPI.as_view()),
+    path('api/V1/posts/<int:pk>/', PostDetailAPI.as_view()),
+    path('posts/', PostListView.as_view(), name='posts_list'),
 ]
