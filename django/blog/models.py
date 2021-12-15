@@ -16,6 +16,6 @@ class PostImage(models.Model):
     image = models.ImageField(upload_to="posts")
 
     def __str__(self) -> str:
-        return f'[<img class="image" style="width: 100%" src="{settings.MEDIA_URL}{self.image}">'
+        return f'<img class="image" style="width: 100%" src="{settings.MEDIA_URL}{self.image}">'
 
     
