@@ -40,5 +40,5 @@ yarn-error.log*
 # vercel
 .vercel
 
-/media
-/static
+*/media
+*/static
